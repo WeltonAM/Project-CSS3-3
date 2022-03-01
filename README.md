@@ -1,2 +1,3 @@
 # personal-01
- Parallax
+
+ Parallax exercise (Web Dev course)
