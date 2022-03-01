@@ -16,14 +16,20 @@
     transform: translate(-50%, -50%);
     letter-spacing: 5px;
     max-height: 1px;
-
 }
 
 #content1 {
     color: #777;
     text-align: center;
-    font-size: 1.5em;
     max-height: 80%;
+}
+
+h1 {
+    font-size: clamp(7px, 5vw, 5vw);
+}
+
+p {
+    font-size: clamp(15px, 2.3vw, 3vw);
 }
 
 #content1 p {
@@ -53,7 +59,6 @@
 #box2-content {
     color: #FFF;
     text-align: center;
-    font-size: 1.5em;
     font-weight: 500;
     text-shadow: 2px 2px 10px #000;
     display: flex;
@@ -65,7 +70,6 @@
     color: #777;
     background-color: #fff;
     text-align: center;
-    font-size: 1.5em;
 }
 
 #content2 p {
@@ -85,8 +89,7 @@
 #box4-content {
     color: #FFF;
     text-align: center;
-    font-size: 1.5em;
-    font-weight: 500;
+    font-weight: 400;
     text-shadow: 2px 2px 10px #000;
     display: flex;
     justify-content: center;
@@ -98,12 +101,13 @@
 }
 
 footer {
-    max-height: 100px;
+    max-height: 14vw;
     background-color: rgb(181, 181, 255);
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: clamp(15px, 2.3vw, 3vw);
 }
 
 footer span a {
