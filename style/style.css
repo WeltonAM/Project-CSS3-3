@@ -21,7 +21,7 @@
 #content1 {
     color: #777;
     text-align: center;
-    max-height: 80%;
+    height: 100vh;
 }
 
 h1 {
