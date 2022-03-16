@@ -43,9 +43,8 @@ p {
     position: relative;
     height: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
     -webkit-background-size: cover;
-    background-position: center; 
+    -webkit-background-position: center; 
     background-attachment: fixed;
 }
 
