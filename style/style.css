@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
     font-family: 'Outfit', 'Segoe UI', sans-serif;
     height: 100%;
 }
@@ -41,9 +41,8 @@ p {
 
 #box1, #box2, #box3, #box4, #box5 {
     position: relative;
-    height: 100%;
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
+    background-size: cover;
     background-position: center; 
     background-attachment: fixed;
 }
