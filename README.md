@@ -2,4 +2,4 @@
 
   Parallax exercise (Web Dev course)
  
- https://weltonam.github.io/personal-01/
+ https://weltonam.github.io/Project-CSS3-3/
